@@ -25,6 +25,7 @@ npx skills add shubhamkumbhalkar/skills --skill distributed-systems-design-revie
 | **distributed-systems-design-review** | Reviewing a system design / RFC / PR for reliability and correctness at scale (idempotency, retries, backpressure, consistency, failure modes, observability). |
 | **zero-downtime-migration** | Planning or reviewing a zero-downtime migration of a live/Tier-1 service or datastore (dual-write, backfill, shadow, phased cutover, rollback). |
 | **genai-production-readiness** | Taking an LLM/GenAI feature to production (guardrails, evals, hallucination + prompt-injection mitigation, human-in-the-loop, latency/cost, PII, observability). |
+| **time-series-forecasting-review** | Building or reviewing a forecasting model/pipeline (demand, capacity, revenue): data leakage, valid backtesting, baselines, seasonality/covariates, metrics, and drift. |
 
 ## Why these
 
