@@ -26,6 +26,7 @@ npx skills add shubhamkumbhalkar/skills --skill distributed-systems-design-revie
 | **zero-downtime-migration** | Planning or reviewing a zero-downtime migration of a live/Tier-1 service or datastore (dual-write, backfill, shadow, phased cutover, rollback). |
 | **genai-production-readiness** | Taking an LLM/GenAI feature to production (guardrails, evals, hallucination + prompt-injection mitigation, human-in-the-loop, latency/cost, PII, observability). |
 | **time-series-forecasting-review** | Building or reviewing a forecasting model/pipeline (demand, capacity, revenue): data leakage, valid backtesting, baselines, seasonality/covariates, metrics, and drift. |
+| **design-doc-review-autopilot** | Drafting, humanizing, visualizing, and reviewing technical designs with bounded critic panels and meeting-ready companion documents. |
 
 ## Why these
 
@@ -35,8 +36,8 @@ that cause real production incidents.
 
 ## About
 
-Built by **Shubham Kumbhalkar**, Software Development Engineer II at Amazon — distributed
-systems, cloud platforms, and applied Generative AI.
+Built by **Shubham Kumbhalkar**, a software engineer focused on distributed systems,
+cloud platforms, and applied Generative AI.
 - Portfolio: https://shubhamkumbhalkar.github.io
 - LinkedIn: https://www.linkedin.com/in/shubham-kumbhalkar/
 
