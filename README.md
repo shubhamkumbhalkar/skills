@@ -49,6 +49,7 @@ npx skills add shubhamkumbhalkar/skills --skill distributed-systems-design-revie
 |---|---|
 | **amazon-design-doc-writer** | Writing a design doc, one-pager, or technical proposal that needs team review. |
 | **design-doc-review-autopilot** | Drafting, humanizing, visualizing, and reviewing technical designs with bounded critic panels. |
+| **humanizer** | Rewriting or drafting prose so it reads human, not AI: strips em dashes and buzzwords, shortens sentences, forces concrete facts. |
 
 **productivity**
 | Skill | Use it when |
