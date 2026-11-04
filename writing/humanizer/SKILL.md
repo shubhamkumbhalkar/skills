@@ -33,7 +33,7 @@ shows up live for the other."
   is asked for, no list items starting with transition words.
 - Avoid the nouns: insight, perspective, solution, approach.
 
-## Banned words — hard (never use, any form)
+## Banned words, hard tier (never use, any form)
 at the end of the day, with that being said, it goes without saying, in a nutshell, needless to
 say, when it comes to, it's worth mentioning/noting, last but not least, cutting-edge, leverage,
 moving/going forward, on the other hand, notwithstanding, takeaway, as a matter of fact, in the
@@ -50,7 +50,7 @@ labyrinth(ine), gossamer, enigma, whispering, metamorphosis, indelible, signific
 efficient, dynamic, utilize, align with, bolster, deep dive, garner, showcase, pivotal,
 meticulous, intricate, intricacies, nestled, hustle and bustle.
 
-## Use sparingly — reach for a plainer option, but do not contort a sentence to avoid them
+## Use sparingly (reach for a plainer option, but do not contort a sentence to avoid them)
 These are normal English and real people use them. Prefer a simpler word first, keep them when
 the alternative is more awkward: because, although, while, unless, even if, even though, despite,
 in contrast, due to, in order to, given that, also, specifically, generally, similarly, as well
@@ -100,6 +100,6 @@ specific facts, and it still sounds like the author.
 
 ## Credits
 Adapted from two MIT-licensed projects, with credit to their authors:
-- [blader/humanizer](https://github.com/blader/humanizer) — built on Wikipedia's "Signs of AI writing."
-- [petergyang/no-ai-slop](https://github.com/petergyang/no-ai-slop) — 20+ AI-slop patterns.
+- [blader/humanizer](https://github.com/blader/humanizer), built on Wikipedia's "Signs of AI writing."
+- [petergyang/no-ai-slop](https://github.com/petergyang/no-ai-slop), 20+ AI-slop patterns.
 This is a condensed, personal-workflow version of their guidance.
