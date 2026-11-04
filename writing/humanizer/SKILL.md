@@ -50,3 +50,12 @@ Do NOT use for:
 - Zero banned words.
 - Short, varied sentences. Specific facts, not filler.
 - Reads the way the user would actually say it out loud.
+
+## Credits
+
+This ruleset is adapted from two excellent open-source projects, both MIT licensed:
+- [blader/humanizer](https://github.com/blader/humanizer) — built on Wikipedia's "Signs of AI writing."
+- [petergyang/no-ai-slop](https://github.com/petergyang/no-ai-slop) — 20+ AI-slop patterns.
+
+Credit for the underlying patterns goes to those authors. This skill is my own condensed,
+personal-workflow version of their guidance.
