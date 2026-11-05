@@ -32,6 +32,7 @@ npx skills add shubhamkumbhalkar/skills --skill distributed-systems-design-revie
 |---|---|
 | **distributed-systems-design-review** | Reviewing a system design / RFC / PR for reliability and correctness at scale (idempotency, retries, backpressure, consistency, failure modes, observability). |
 | **zero-downtime-migration** | Planning or reviewing a zero-downtime migration of a live/Tier-1 service or datastore (dual-write, backfill, shadow, phased cutover, rollback). |
+| **change-safety** | Before any change that is hard to reverse or touches a shared/production system (CR, deploy, pipeline promote, manual CLI/infra command, resource delete): researches how the change is actually applied, pre-mortems the failure modes and recovery, and forces a safer-alternative check before acting. |
 
 **ai**
 | Skill | Use it when |
