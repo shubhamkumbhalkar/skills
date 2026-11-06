@@ -86,6 +86,7 @@ Pre-change checklist (all must be answerable):
 | 6 | Unverified assumptions? | Any, on an irreversible change |
 | 7 | Simpler/safer alternative considered? | You skipped the comparison |
 | 8 | User told the risk before the irreversible step? | Not yet, and it's prod |
+| 9 | Command's preconditions confirmed against a fresh read (not copied from the last target)? | You pattern-matched it |
 
 ## Common Traps
 
@@ -102,6 +103,13 @@ Pre-change checklist (all must be answerable):
   before you commit.
 - **Automation bias.** Forcing a change "through the system" when a scoped manual action is
   simpler and more reversible — or automating when manual would drift. Pick on evidence.
+- **Unchecked command preconditions.** Handing over or running a command whose precondition
+  does not hold in the current state — a flag or mode valid only in a specific status, a
+  resource assumed to exist or to be in a given state. Confirm the precondition against a fresh
+  read before issuing the command.
+- **Pattern-matching across targets.** Copying the exact command that worked on the last
+  account, stack, region, or iteration onto the next without re-verifying — regions, statuses,
+  names, and preconditions differ per target. Check each target on its own.
 
 ## Worked Example: the self-mutating pipeline wedge
 
