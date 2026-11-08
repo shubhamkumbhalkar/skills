@@ -57,7 +57,14 @@ npx skills add shubhamkumbhalkar/skills --skill distributed-systems-design-revie
 |---|---|
 | **portable-agent-skills-library** | Turning repeated agent instructions into reusable SKILL.md files that work across Claude Code and Codex. |
 
-Categories: `architecture`, `ai`, `security`, `writing`, `productivity`, `devtools`.
+
+
+**design**
+| Skill | Use it when |
+|---|---|
+| **editorial-image-prompt** | Generating a featured-image prompt that is specific to one article and varied across a style kit, instead of the same generic AI header every time. |
+
+Categories: `architecture`, `ai`, `security`, `writing`, `productivity`, `devtools`, `design`.
 
 ## Why these
 
