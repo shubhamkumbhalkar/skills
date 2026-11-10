@@ -27,14 +27,21 @@ Do not use for:
 
 ## Process (two steps)
 
-**Step 1, find the metaphor.** Read the article. Write down its single central idea and 2-3
-concrete things it discusses. Invent ONE visual metaphor for that specific idea. Hard rule:
-do not use a developer at a desk, a laptop, a robot, a brain, a lightbulb, or a network of
-glowing nodes. The metaphor must be specific to this article, the way an editorial
-illustrator finds an image that carries the argument.
+**Step 1, find the metaphor.** Read the article and find its PRIMARY thesis: the single
+headline argument, not a side-topic. If it has several threads (scaling, parallel work,
+security, governance), pick the one the title and conclusion emphasize most and build the
+image around that. Invent ONE visual metaphor for that thesis. It must also read as being
+about software or engineering, so a viewer senses the domain before reading the headline.
+Hard rule: specific to this article, and never a developer at a desk, a laptop, a robot, a
+brain, a lightbulb, or a network of glowing nodes. If the metaphor has many figures or units,
+give them visibly distinct activities mapped to the article's real stages (building,
+inspecting, repairing, shipping), not many identical units doing the same thing.
 
 **Step 2, compose the prompt.** Fill four slots:
-- SUBJECT: the metaphor scene, concrete and specific.
+- SUBJECT: the metaphor scene, concrete and specific. It must include at least one tasteful
+  software detail worked into the medium (code-like line patterns, diff or commit marks, or
+  schematic drafting lines on the surfaces) so the image reads as software. Do not use literal
+  glowing circuit boards, screens, or HUDs for this.
 - STYLE: this week's style from the kit below (round-robin, see Selection).
 - COMPOSITION: 16:9, with clear negative space on one side for a headline overlay.
 - MOOD: fitting the article's argument.
@@ -61,8 +68,9 @@ AI-generated.
 
 ## Constraints (keep it from looking AI)
 
-- Depict the article's own metaphor as a concrete scene with real subjects. Never an abstract
-  network of glowing nodes.
+- Depict the article's own metaphor as a concrete scene with real subjects. A subtle technical
+  or built-environment cue (workshop, machinery, printing press, blueprint lines) is encouraged
+  so the scene reads as the software/engineering domain. Never an abstract network of glowing nodes.
 - Do not default to a developer at a desk, a laptop, a robot, a brain, or a lightbulb. Vary
   the scene every time.
 - Commit to the named medium and make its texture visible. Avoid the over-clean, plastic,
@@ -75,4 +83,4 @@ AI-generated.
 ## Output
 
 Return the final text-to-image prompt. If you reason in two steps, return JSON
-`{"metaphor": "...", "image_prompt": "..."}` so the metaphor is auditable.
+`{"thesis": "...", "metaphor": "...", "image_prompt": "..."}` so the thesis and metaphor are auditable.
