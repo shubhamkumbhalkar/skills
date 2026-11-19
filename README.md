@@ -57,7 +57,10 @@ npx skills add shubhamkumbhalkar/skills --skill distributed-systems-design-revie
 |---|---|
 | **portable-agent-skills-library** | Turning repeated agent instructions into reusable SKILL.md files that work across Claude Code and Codex. |
 
-
+**devtools**
+| Skill | Use it when |
+|---|---|
+| **phonebox-ai-desk-panel** | Setting up an Android phone as a local Claude Code, Codex, GitHub, CI, system-metric, and touch-control desk panel. |
 
 **design**
 | Skill | Use it when |
